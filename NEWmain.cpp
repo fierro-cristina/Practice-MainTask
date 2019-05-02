@@ -62,7 +62,7 @@ void process(Mat src)
 
 int main(int argc, const char** argv)
 {
-	Mat src = imread("C:/Users/Jazmin/Documents/UNIVERSITY/RICE/2.jpeg", CV_LOAD_IMAGE_GRAYSCALE);
+	Mat src = imread("2.jpeg", CV_LOAD_IMAGE_GRAYSCALE);
 
 	if (!src.data) 
 	{
